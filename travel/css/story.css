@@ -1,0 +1,141 @@
+@charset "utf-8";
+
+.wrapper .destination {
+    width: 100vw;
+    height: 237vh;
+    margin-top: 6rem;
+}
+
+.wrapper .destination .destination-body {
+    width: 52.5%;
+    height: 100%;
+    margin: 0 auto;
+    padding-top: 2rem;
+}
+
+.wrapper .destination-body .destination-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.wrapper .destination-header .destination-author {
+    display: flex;
+    align-items: center;
+}
+
+.wrapper .destination-author .destination-name p {
+    font-size: 1rem;
+    margin-left: 0.5rem;
+}
+
+.wrapper .destination-author .destination-name p:nth-child(2) {
+    color: #A2A7B1;
+    font-size: 0.85rem;
+    font-style: italic;
+}
+
+.wrapper .destination-body .destination-video {
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+.wrapper .destination-video button {
+    position: absolute;
+    top: 14rem;
+    left: 25rem;
+    padding: 0;
+    background-color: unset;
+}
+
+.wrapper .destination-body .destination-title {
+    margin-bottom: 1rem;
+}
+
+.wrapper .destination-body .destination-text {
+    margin-bottom: 2rem;
+}
+
+.wrapper .destination-body .destination-text p {
+    color: #434343;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+.wrapper .destination-body .destination-gallery {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.wrapper .destination-gallery .destination-cards {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrapper .destination-cards .destination-another-card {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.wrapper .destination-gallery .destination-info {
+    width: 46%;
+}
+
+.wrapper .destination-info .destination-quota {
+    display: flex;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.wrapper .destination-quota .destination-marks {
+    margin-right: 1rem;
+}
+
+.wrapper .destination-quota h1 {
+    font-size: 2.5rem;
+    font-style: italic;
+}
+
+.wrapper .destination-info .destination-text p {
+    margin-bottom: 2rem;
+}
+
+.wrapper .destination-body .destination-highlights {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.wrapper .destination-highlights .destination-highlight p {
+    color: #828181;
+    font-size: 0.85rem;
+    font-style: italic;
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+}
+
+.wrapper .destination-body .destination-disclaimer {
+    background-color: #FAFAFA;
+    border-radius: 5px;
+}
+
+.wrapper .destination-disclaimer .destination-title {
+    padding: 1.5rem 0rem 0rem 1.5rem;
+}
+
+.wrapper .destination-disclaimer .destination-title h3 {
+    font-family: "Roboto Black", sans-serif;
+}
+
+.wrapper .destination-disclaimer .destination-text {
+    padding: 0rem 2rem 1.5rem 1.5rem;
+}
+
+.wrapper .destination-disclaimer .destination-text p {
+    line-height: 1.75rem;
+}
